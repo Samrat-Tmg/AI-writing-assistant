@@ -19,11 +19,47 @@ Built with Ollama + Mistral + Python.
 - Romance / Drama
 
 ## Requirements
-- Mac M1/M2/M3/M4 or Linux
+
+### Mac (M1/M2/M3/M4) — Recommended
 - Python 3.9+
 - Ollama installed
 - 8GB RAM minimum
 - 15GB free disk space
+
+### Linux (Ubuntu/Debian)
+- Python 3.9+
+- Ollama installed
+- 8GB RAM minimum
+- 15GB free disk space
+
+### Windows 10/11
+- Python 3.9+ (from python.org)
+- Ollama for Windows (from ollama.com)
+- 8GB RAM minimum
+- 15GB free disk space
+- Git Bash or PowerShell recommended
+
+## Installation by OS
+
+### Mac/Linux
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull mistral
+git clone https://github.com/Samrat-Tmg/AI-writing-assistant
+cd AI-writing-assistant
+pip3 install python-docx ollama rich requests beautifulsoup4
+```
+
+### Windows
+```bash
+# 1. Download and install Ollama from ollama.com
+# 2. Open PowerShell and run:
+winget install ollama
+ollama pull mistral
+git clone https://github.com/Samrat-Tmg/AI-writing-assistant
+cd AI-writing-assistant
+pip install python-docx ollama rich requests beautifulsoup4
+```
 
 ## Quick Start
 
